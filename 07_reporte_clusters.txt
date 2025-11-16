@@ -1,0 +1,73 @@
+================================================================================
+REPORTE DE CLUSTERING K-MEANS
+Análisis de Migración Colombiana por País
+================================================================================
+
+
+================================================================================
+CLUSTER 0
+================================================================================
+Número de países: 34
+Total de personas: 153,904
+
+Características promedio:
+  - % Mujeres: 56.59%
+  - % Edad 18-35: 61.35%
+  - Edad promedio: 33.65 años
+  - % Educación superior: 0.00%
+
+Países principales:
+  - CHILE: 22,500 personas
+  - ARGENTINA: 19,233 personas
+  - CANADA: 17,851 personas
+  - AUSTRALIA: 17,681 personas
+  - PANAMA: 11,301 personas
+  - MEXICO: 10,626 personas
+  - FRANCIA: 10,133 personas
+  - ALEMANIA: 9,294 personas
+  - ITALIA: 7,307 personas
+  - REINO UNIDO: 7,126 personas
+
+================================================================================
+CLUSTER 1
+================================================================================
+Número de países: 2
+Total de personas: 353,376
+
+Características promedio:
+  - % Mujeres: 52.71%
+  - % Edad 18-35: 66.88%
+  - Edad promedio: 33.01 años
+  - % Educación superior: 0.00%
+
+Países principales:
+  - ESPAÑA: 187,243 personas
+  - ESTADOS UNIDOS: 166,133 personas
+
+================================================================================
+CLUSTER 2
+================================================================================
+Número de países: 17
+Total de personas: 72,954
+
+Características promedio:
+  - % Mujeres: 42.82%
+  - % Edad 18-35: 64.86%
+  - Edad promedio: 33.19 años
+  - % Educación superior: 0.00%
+
+Países principales:
+  - ECUADOR: 36,431 personas
+  - BRASIL: 15,424 personas
+  - PERU: 6,216 personas
+  - COSTA RICA: 5,236 personas
+  - GUATEMALA: 1,936 personas
+  - POLONIA: 1,674 personas
+  - BOLIVIA: 1,313 personas
+  - URUGUAY: 950 personas
+  - CURAZAO: 921 personas
+  - CHINA: 622 personas
+
+================================================================================
+FIN DEL REPORTE
+================================================================================
