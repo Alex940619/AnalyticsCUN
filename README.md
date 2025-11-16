@@ -17,7 +17,19 @@ Este proyecto realiza un análisis de clustering K-Means sobre datos de migraci�
 
 ## 🚀 Instalación
 
-1. Instalar dependencias:
+1. **Clonar el repositorio:**
+```bash
+git clone https://github.com/Alex940619/AnalyticsCUN.git
+cd AnalyticsCUN
+```
+
+2. **Descargar archivos grandes (opcional):**
+Los archivos de datos grandes están en Google Drive:
+📁 [Clustering_total - Google Drive](https://drive.google.com/drive/folders/Clustering_total)
+
+**Nota:** No es necesario descargarlos para ejecutar el clustering y visualizaciones.
+
+3. **Instalar dependencias:**
 ```bash
 pip install -r requirements.txt
 ```
