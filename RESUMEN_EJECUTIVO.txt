@@ -117,5 +117,5 @@ El Silhouette Score de 0.334 indica clusters moderadamente definidos,
 apropiado para este tipo de datos demográficos agregados.
 
 ================================================================================
-Equipo B - Noviembre 2024
+Equipo B - Noviembre 2025
 ================================================================================

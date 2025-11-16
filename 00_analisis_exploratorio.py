@@ -17,13 +17,13 @@ def analisis_exploratorio():
     print("\nCargando datos limpios...")
     df = pd.read_csv('datos_limpios.csv')
     
-    print(f"\n📊 INFORMACIÓN GENERAL")
+    print(f"\n INFORMACIÓN GENERAL")
     print(f"Total de registros: {len(df):,}")
     print(f"Total de columnas: {len(df.columns)}")
     print(f"Período: {df['Año Registro'].min()} - {df['Año Registro'].max()}")
     
     # Análisis por país
-    print(f"\n🌍 ANÁLISIS POR PAÍS")
+    print(f"\n ANÁLISIS POR PAÍS")
     print(f"Total de países: {df['País'].nunique()}")
     print(f"\nTop 10 países:")
     top_paises = df['País'].value_counts().head(10)
@@ -32,7 +32,7 @@ def analisis_exploratorio():
         print(f"  {i}. {pais}: {count:,} ({porcentaje:.1f}%)")
     
     # Análisis demográfico
-    print(f"\n👥 ANÁLISIS DEMOGRÁFICO")
+    print(f"\n ANÁLISIS DEMOGRÁFICO")
     print(f"\nDistribución por género:")
     genero = df['Género'].value_counts()
     for gen, count in genero.items():
@@ -45,7 +45,7 @@ def analisis_exploratorio():
     print(f"  Rango: {df['Edad (años)'].min():.0f} - {df['Edad (años)'].max():.0f} años")
     
     # Análisis educativo
-    print(f"\n🎓 ANÁLISIS EDUCATIVO")
+    print(f"\n ANÁLISIS EDUCATIVO")
     print(f"Top 5 niveles académicos:")
     nivel = df['Nivel Académico'].value_counts().head(5)
     for niv, count in nivel.items():
@@ -53,14 +53,14 @@ def analisis_exploratorio():
         print(f"  {niv}: {count:,} ({porcentaje:.1f}%)")
     
     # Análisis temporal
-    print(f"\n📅 ANÁLISIS TEMPORAL")
+    print(f"\n ANÁLISIS TEMPORAL")
     print(f"Registros por año:")
     años = df['Año Registro'].value_counts().sort_index()
     for año, count in años.items():
         print(f"  {año}: {count:,}")
     
     # Calidad de datos
-    print(f"\n✅ CALIDAD DE DATOS")
+    print(f"\n CALIDAD DE DATOS")
     print(f"Valores nulos por columna:")
     nulos = df.isnull().sum()
     nulos_pct = (nulos / len(df)) * 100
